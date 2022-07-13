@@ -1,0 +1,21 @@
+.addproduct23{
+    margin: 50px;
+    margin-top: 60px;
+    width: 600px;
+    height: 760px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px grey ;
+}
+.product23{
+    position: relative;
+    margin-left: 680px;
+    width: 600px;
+    height: 760px;
+    top: -810px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px grey ;
+}
+.productImg{
+    height: 350px;
+    width: 560px;
+}

@@ -1,0 +1,157 @@
+.dashboard{
+    margin-left: 5px;
+    position: relative;
+}
+
+.values{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.values .product-card{
+    background-color: skyblue;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius:10px ;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+.values .order-card{
+    background-color: #54FF3D;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius:10px ;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.card-items{
+    display: flex;
+}
+
+.values .user-card{
+    background-color:#FFDD33;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius:10px ;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+.values .store-card{
+    background-color: #FF4229;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius:10px ;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+ .dashboard-icon{
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(3, 3, 108);
+    background-color: aliceblue;
+    margin-right: 15px;
+
+}
+
+.card-heading{
+    font-size: 18px;
+    font-weight: 600;
+}
+span{
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+
+.card-button{
+    color: aliceblue;
+    border-radius: 5px;
+    border-width: 0;
+    width: 90%;
+    font-size: larger;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.product-card .card-button{
+    background-color: #007BFF;
+}
+
+.order-card .card-button{
+    background-color: #0f6e02;
+}
+
+.user-card .card-button{
+    background-color: #796608;
+}
+
+.store-card .card-button{
+    background-color: #741b10;
+}
+.stats23{
+    width: 55%;
+    height: 50%;
+    box-shadow: 2px 2px 2px 2px grey ;
+   
+}
+.orders23{
+    display: block;
+    margin-left:75%;
+    position: relative;
+    top: -55px;
+    width: 20%;
+    background-color: rgb(97, 68, 13);
+    color: white;
+    
+}
+h5{
+    padding: 20px;
+
+}
+table{
+    margin: 20px;
+}
+.stats34{
+    width: 43%;
+    height: 20%;
+    box-shadow: 2px 2px 2px 2px grey ;
+    position: relative;
+    margin-left: 57%;
+    top: -350px;
+    height: 50%;
+}
+.form-select{
+    width: 20%;
+  
+    position: relative;
+    margin-left: 75%;
+    top:-45px
+}
+h6{
+    padding-left: 5px;
+}
+.recomendation{
+    position: relative;
+    top: -300px;
+    
+   padding: 10px;
+    box-shadow: 2px 2px 2px 2px grey ;
+    
+   
+}

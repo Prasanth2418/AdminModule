@@ -1,0 +1,115 @@
+Navbar{
+    color: aliceblue;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+.snip1189 {
+  font-family: "Roboto";
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-left: 10%;
+  padding-top: 2%;
+ 
+}
+.snip1189 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1189 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1em;
+  padding: 0;
+}
+.snip1189 button {
+  padding: 0.5em 0.8em;
+  margin: 0.2em 0;
+  display: block;
+  color: black;
+  position: relative;
+  text-shadow: 0 0 3px #f98b8b, 0 0 5px #7474f3;
+  border: none;
+  background-color: inherit;
+  font-weight: bold;
+
+}
+.snip1189 button:before,
+.snip1189 button:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+.snip1189 button:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid #c0392b;
+  border-top: 3px solid #c0392b;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+.snip1189 button:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #c0392b;
+  border-bottom: 3px solid #c0392b;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+.snip1189 button:hover,
+.snip1189 .current button {
+  color:black;
+}
+.snip1189 button:hover:before,
+.snip1189 .current button:before,
+.snip1189 button:hover:after,
+.snip1189 .current button:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+.navbar{
+  height: 50px;
+  background-color:whitesmoke;
+ 
+}
+.cart{
+  display: block;
+  margin-left: auto;
+}
+.profile{
+  display: block;
+  margin-left: auto;
+}
+.logo{
+  width: 200px;
+  height: 45px;
+}
+
+ .logout{
+  border: 0;
+  background-color: inherit;
+ }
+ .drop23{
+  border: none;
+  background-color: inherit;
+  color: black;
+ }
+ .drop23:hover{
+  border: none;
+  background-color: inherit;
+  color: black;
+
+ }
+ .avatar {
+  vertical-align: middle;
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+}

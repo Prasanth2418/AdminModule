@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+}
+main {
+  padding: 10px;
+}
+
+.title {
+  padding: 30px 30px 0 30px
+}
+
+
+/* edit and delete buttons */
+
+.edit_btn{
+  background-color: inherit;
+  color: black;
+  font-size:x-large;
+  border: 0;
+  border-radius: 5px;
+}
+
+.delete_btn{
+  background-color:inherit;
+  color: black;
+  font-size:x-large;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 20%;
+}
+
+/* tables */
+
+.table{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 70rem;
+  text-align: center;
+}
+thead{
+  background-color: #774509;   
+  color: rgb(228, 214, 196);
+}
+
+.button-search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  left: 50px;
+}
+
+.add-button {
+  background-color: #343a40;
+  color: aliceblue;
+  border: 0;
+  border-radius: 3px;
+  font-size: large;
+  width: 10%;
+  height: 2.5rem;
+}
+.search {
+    width: 30%;
+    border-radius: 5px;
+}
+
